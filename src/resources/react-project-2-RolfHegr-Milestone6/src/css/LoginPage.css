@@ -1,0 +1,106 @@
+.c-Login {
+  /* border: 1px solid white; */
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 600px;
+  height: 206px;
+}
+
+.c-Login > h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.c-Login form > .form-label {
+  margin: 0 0 6px 0;
+  color: #c3c5c8;
+}
+
+.c-Login > input {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.c-Login > .UserName-textarea.form-control {
+  background-color: #12202c;
+  color: #cccccc;
+  resize: none;
+}
+
+
+.c-Login .input {
+  margin-bottom: 0.5rem;
+}
+
+.c-Login form > .form-control {
+  border: none;
+  background-color: #12202c;
+  border: 2px solid #cccccc;
+  color: white;
+  max-height: 61px;
+}
+
+.c-Login form > .form-control:focus {
+  box-shadow: none !important;
+}
+
+.c-Login form .form-label {
+    color: #c3c5c8;
+    margin: 0;
+}
+
+.c-btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  align-items: center;
+  gap: 1rem;
+}
+
+.c-btns button {
+  width: 100%;
+  background-color: pink;
+  color: #333a41;
+  border: none;
+}
+
+.c-btns button:hover {
+  background-color: #f49baa;
+ 
+}
+
+.googleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googleLogo {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  border: none !important;
+}
+
+.c-LandingPage {
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 600px;
+  height: 100px;
+  text-align: center;
+}
+
+.pink {
+  color: pink;
+}
+
+.c-LandingPage h1 {
+  text-align: center;
+}
+
+.c-LandingPage p {
+  color: #8b8f91;
+}

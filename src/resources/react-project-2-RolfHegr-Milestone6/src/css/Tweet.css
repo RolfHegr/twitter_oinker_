@@ -1,0 +1,40 @@
+.Tweet {
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  background-color: #333a41;
+  border-radius: 0.25rem;
+  margin: 0px auto 15px auto;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.c-restOfTweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.c-profilePic {
+  margin-right: 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Tweet p {
+  margin: 0;
+}
+
+.avatar {
+  max-height: 60px;
+  max-width: 60px;
+  border-radius: 50%;
+}

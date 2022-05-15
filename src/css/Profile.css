@@ -1,0 +1,91 @@
+.c-Profile {
+  /* border: 1px solid white; */
+  border-radius: 0.25rem;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 600px;
+  height: 206px;
+}
+
+.c-Profile > h1 {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.c-Profile form > .form-label {
+  margin: 0 0 6px 0;
+  color: #c3c5c8;
+}
+
+.c-Profile > .userNameInput {
+  color: white;
+  margin: 0 !important;
+}
+
+.c-Profile > .UserName-textarea.form-control {
+  background-color: #12202c;
+  color: #cccccc;
+  resize: none;
+}
+
+.c-Profile form > .form-control {
+  border: none;
+  background-color: #12202c;
+  border: 2px solid #cccccc;
+  color: white;
+  max-height: 61px;
+}
+
+.c-Profile form > .form-control:focus {
+  box-shadow: none !important;
+}
+
+.c-Profile > .UserName-textarea {
+  max-height: 61px !important;
+  border: 1px solid blue;
+}
+
+.c-Profile .c-button {
+  padding: 16px 5px 0 0;
+}
+
+.c-Profile button {
+  width: 100%;
+  background-color: pink !important;
+  color: #333a41;
+  border: none;
+}
+
+.c-Profile button:hover {
+  background-color: #f49baa !important;
+}
+
+.profileImagePreview {
+  height: 100%;
+  width: 100%;
+}
+
+.uploadImageForm {
+  max-width: 600px;
+  max-height: 800px;
+  border: 1px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.uploadImageForm .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.form-label {
+  color: white;
+}
+
+.white {
+  margin: 2rem 0 0.1rem 0;
+  color: white;
+}
